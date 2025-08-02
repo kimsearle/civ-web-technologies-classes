@@ -2,13 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Kim Searle">
+    <meta name="description" content="Session 2 practice">
     <title>My Second Webpage</title>
     <style>
-        img {
+        .icon {
             width: 100px;
             border-radius: 50px;
             float: left;
             margin-right: 10px;
+        }
+        .coffee {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
         }
         .username {
             font-weight: bold;
@@ -16,8 +25,14 @@
     </style>
 </head>
 <body>
-<img src="assets/images/githubicon.png">
+<a href="/index.html">Back to Home</a>
+<img class="icon" src="assets/images/githubicon.png" alt="Kim Searle's Github Icon- a cartoon alien">
 <p class="username">@KimSearle</p>
 <p>I love to learn HTML</p>
+
+<hr>
+
+<img class="coffee" src="assets/images/coffee.jpg" alt="A coffee mug on a table">
+
 </body>
 </html>
